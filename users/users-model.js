@@ -5,8 +5,6 @@ module.exports = {
     findUserById,
     updateUser,
     removeUser,
-   
-
 }
 
 function getUsers() {
