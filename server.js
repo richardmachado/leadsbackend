@@ -3,9 +3,9 @@
 const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
-const usersRouter = require('../users/users-router');
-const loginRouter = require('../auth/auth-router');
-const leadsRouter = require('../leads/leads-router');
+const usersRouter = require('./users/users-router');
+const loginRouter = require('./auth/auth-router');
+const leadsRouter = require('./leads/leads-router');
 const server = express();
 
 server.use(helmet());
